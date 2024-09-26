@@ -12,7 +12,7 @@ import java.awt.event.WindowListener;
 public class ConcessionariaGUI extends JFrame {
 
     JLabel linha1, linha2;
-    ImageIcon ManoelGomes = new ImageIcon("./imgs/ManoelGomes.jpg");
+    ImageIcon transformers = new ImageIcon("./imgs/transformers.jpg");
     JMenuBar barraDeMenu = new JMenuBar();
     SistemaConcessionaria sistemaConcessionaria = new SistemaConcessionariaDeRyan();
 
@@ -27,7 +27,7 @@ public class ConcessionariaGUI extends JFrame {
         linha1 = new JLabel("Concessionária", JLabel.CENTER);
         linha1.setForeground(Color.BLACK);
         linha1.setFont(new Font("Arial", Font.BOLD, 24));
-        linha2 = new JLabel(ManoelGomes, JLabel.CENTER);
+        linha2 = new JLabel(transformers, JLabel.CENTER);
         getContentPane().setLayout(new GridLayout(3,1));
         add(linha1);
         add(linha2);
